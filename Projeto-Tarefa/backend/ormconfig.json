@@ -1,0 +1,24 @@
+{
+   "type": "postgres",
+   "host": "ziggy.db.elephantsql.com",
+   "port": 5432,
+   "username": "gpazrbku",
+   "password": "5ldV40O2okfOyCYOG333z5NWGC-ywnlH",
+   "database": "gpazrbku",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
